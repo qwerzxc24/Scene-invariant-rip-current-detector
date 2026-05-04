@@ -31,10 +31,10 @@ cd selective_scan && pip install . && cd ..
 pip install -v -e .
 ```
 
-#### 6. Download RipScape dataset
-RipScape dataset: https://huggingface.co/datasets/anonrip/RipScape
-
-Make sure the data is structured as recommended by Ultralytics: https://github.com/ultralytics/ultralytics
+#### 6. Prepare dataset
+* Download RipScape dataset: https://huggingface.co/datasets/anonrip/RipScape
+* Extract the viewpoint label of each image and use the entire image as the bounding box, for example: class 1 — low and side view, class 2 — high and frontal view, etc.
+* Make sure the data is structured as recommended by Ultralytics: https://github.com/ultralytics/ultralytics
 
 #### 7. Train and test
 train.py and test_sample.py are provided as templates.
