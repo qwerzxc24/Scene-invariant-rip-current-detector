@@ -37,7 +37,7 @@ RipScape dataset: https://huggingface.co/datasets/anonrip/RipScape
 Make sure the data is structured as recommended by Ultralytics: https://github.com/ultralytics/ultralytics
 
 #### 7. Train and test
-train.py and test.py are provided as templates.
+train.py and test_sample.py are provided as templates.
 
 ## Acknowledgement
 
