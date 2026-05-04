@@ -1,0 +1,17 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path:  # dataset root dir
+train:  # train images (relative to 'path') 4 images
+val:  # val images (relative to 'path') 4 images
+test: # test images (optional)
+
+nc: 8
+
+names:
+  0: rip current
+  1: HighView-DiagonalView
+  2: TopView
+  3: LowView-DiagonalView
+  4: LowView-SideView
+  5: LowView-FrontView
+  6: HighView-SideView
+  7: HighView-FrontView
