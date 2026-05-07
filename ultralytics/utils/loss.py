@@ -679,7 +679,7 @@ class WeightedSegmentationLoss_AAE(v8SegmentationLoss):
                 l_rec = 0.0
                 for rec, orig in zip(cache['Rec'], cache['Orig']):
                     l_rec += F.mse_loss(rec, orig)
-                aae_loss_total += l_rec * 1
+                aae_loss_total += l_rec * 0.5
                 # print('l_rec:', l_rec * 0.5)
             
             # --- C. MMD ---
